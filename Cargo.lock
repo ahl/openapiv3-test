@@ -141,12 +141,11 @@ dependencies = [
 
 [[package]]
 name = "openapiv3"
-version = "1.0.0-beta.1"
+version = "1.0.1"
 dependencies = [
  "indexmap",
  "serde",
  "serde_json",
- "serde_yaml",
 ]
 
 [[package]]

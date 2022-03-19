@@ -98,7 +98,7 @@ fn main() {
                                 .fetch_add(1, std::sync::atomic::Ordering::SeqCst);
                         }
                         Err(e) => {
-                            println!("{} {} ❌", name, e);
+                            println!("{} {} 🐞", name, e);
                             stats
                                 .failure
                                 .fetch_add(1, std::sync::atomic::Ordering::SeqCst);
